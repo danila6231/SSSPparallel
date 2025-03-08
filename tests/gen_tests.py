@@ -32,7 +32,6 @@ def generate_input_file(filename, grid_size, is_3d, uniform_weight=None, random_
         for x in range(X):
             for y in range(Y):
                 for z in range(Z if is_3d else 1):
-                    current = (x, y, z)
 
                     # Define neighbors based on grid connectivity
                     neighbors = []

@@ -2,3 +2,6 @@ a.out
 seq.exe
 commands.txt
 output.txt
+logs.txt
+output_*
+./outputs/*
